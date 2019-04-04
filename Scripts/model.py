@@ -20,14 +20,14 @@ class ConvModel(nn.Module):
         self.layer2 = nn.Sequential(
 	        nn.Conv2d(in_channels=2, out_channels=4, kernel_size=(7, 9), stride=(1, 1)),
 	        nn.ReLU(), 
-	        nn.MaxPool2d(kernel_size=(2, 2), stride=(1,1))        )
-     	self.layer3 = nn.Sequential(
+	        nn.MaxPool2d(kernel_size=(2, 2), stride=(1,1)))  	
+        self.layer3 = nn.Sequential(
 	     	nn.Conv2d(in_channels = 4, out_channels=8, kernel_size = (5, 7), stride=(1, 1)), 
-	     	nn.ReLU())
-     	self.layer4 = nn.Sequential(
+	     	nn.ReLU())  	
+        self.layer4 = nn.Sequential(
 			nn.Conv2d(in_channels = 8, out_channels=16, kernel_size = (3, 5), stride=(1, 1)), 
 	     	nn.ReLU(),
-	     	nn.MaxPool2d(kernel_size=(2, 2), stride=(1,1)))
+	     	nn.MaxPool2d(kernel_size=(2, 2), stride=(1,1)))  
         self.fc1 = nn.Sequential(
 	        nn.Linear(11*16*16, out_features=1400),
 	        nn.ReLU()
