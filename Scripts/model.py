@@ -77,7 +77,7 @@ class ConvModel(nn.Module):
         out=self.layer2(out)
         out=self.layer3(out)
         out=self.layer4(out)
-        out = out.reshape(out.shape(0), -1)
+        out = out.reshape(out.size(0), -1)
         out = out.fc1(out)
         out = out.fc2(out)
         input = out.reshape(Tx,M,-1)
