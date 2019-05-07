@@ -8,5 +8,5 @@ Given the lecture videos sampled at 30fps, find out the most relevant frame for 
 the student.
 
 <br/>
-The report can be found in the submission folder. 
+The report can be found by the name DL_A2
 
