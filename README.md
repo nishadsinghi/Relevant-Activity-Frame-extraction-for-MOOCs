@@ -1,4 +1,4 @@
-# Deep Learning Assignment 2, IIT Delhi
+# Relevant Activity Frame extraction for MOOCs
 
 ## Acknowledgement
 We thank [Dr. Prathosh AP](https://sites.google.com/view/prathosh) for the annotated NPTEL frames as the training and testing data. 
