@@ -8,4 +8,4 @@ Given the lecture videos sampled at 30fps, find out the most relevant frame for 
 the student.
 
 <br/>
-The report can be found [here](./DLA2.pdf)
+The report can be found [here](https://github.com/bhattg/Deep-Learning-Assignment-2/blob/master/DLA2.pdf)
