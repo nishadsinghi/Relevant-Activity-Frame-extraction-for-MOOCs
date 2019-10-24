@@ -8,4 +8,4 @@ Given the lecture videos sampled at 30fps, find out the most relevant frame for 
 the student.
 
 ### Report
-The report with detailed analysis can be found [here](./DLA2.pdf)
+The report with detailed analysis can be found [here](./Report.pdf)
