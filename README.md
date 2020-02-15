@@ -1,4 +1,6 @@
 # Relevant Activity Frame extraction for MOOCs
+Assignment 2 for ELL888 (Advanced Machine Learning) at IIT Delhi
+
 Chahat Chawla (Dept. of Mathematics, IIT Delhi) <br/>
 Gantavya Bhatt (Dept. of Electrical Engineering, IIT Delhi) <br/>
 Hritik Bansal (Dept. of Electrical Engineering, IIT Delhi) <br/>
